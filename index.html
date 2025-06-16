@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Filipe Maciel gosta muito de Monty Python. Este site é uma grande referência ao filme O Sentido da Vida."
+    />
+    <meta name="author" content="Filipe Maciel" />
+    <title>Site Que Faz PING</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bem-vindo ao Site que faz PING</h1>
+      <h2>Aperte o botão para fazer PING:</h2>
+      <button id="pingButton" aria-label="Fazer PING">PING</button>
+      <div id="pingResult" style="margin-top: 20px"></div>
+
+      <p>
+        Se este site fez PING ao apertar o botão;<br />
+        Significa que o seu bebê ainda está vivo!<br />
+        Meus parabéns!
+      </p>
+    </div>
+
+    <script>
+      document
+        .getElementById('pingButton')
+        .addEventListener('click', function () {
+          new Audio('ping.mp3').play();
+          document.getElementById('pingResult');
+        });
+    </script>
+  </body>
+</html>
