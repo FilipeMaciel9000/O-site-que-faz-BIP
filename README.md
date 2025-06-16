@@ -1,2 +1,2 @@
-# O-site-que-faz-BIP
-Este site faz BIP quando você aperta o botão!
+# O-site-que-faz-PING
+Este site faz PING quando você aperta o botão!
